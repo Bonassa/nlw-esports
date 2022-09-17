@@ -1,0 +1,25 @@
+Node JS: O Node é um motor javascript, que utiliza o mesmo motor do Google Chrome
+Link: https://nodejs.org/en/
+Instalação: Instalação versão LTS pode ser instalado usando um gerenciador de pacotes
+como Chocolatey para instalar
+verificação: node -v
+
+-----------------------------------
+React JS: Biblioteca JS para criar interfaces de usuário
+Vite JS: Compilação do React para linguagem inteligivel pelo browser
+Link: https://vitejs.dev/
+Instalação: npm create vite@latest
+
+-----------------------------------
+Expo: Ambiente para desenvolvimento com React Native
+Link: https://expo.dev/
+
+Expo CLI:
+Requisitos: Node LTS + npm ou Yarn + Git
+Instalação: npm install -g expo-cli ou yarn global add expo-cli
+Verificação: expo --version
+
+Criação do projeto: expo init nomeDaAplicação
+blank (TypeScript)
+
+Rodar: expo start
