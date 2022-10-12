@@ -92,6 +92,11 @@ Instalando o Cliente do Prisma no Backend
   npm install @prisma/client
 ```
 
+A chave de acesso ao banco de dados está no arquivo `.env`, como este projeto não está em produção, a chave se encontra abaixo
+
+```.env title=".env"
+  DATABASE_URL="file:../src/database/db.sqlite"
+```
 
 ## Biblioteca CORS para bloquear acessos de front-end indesejados
 Sem essa biblioteca nenhum front end poderia acessar nossa API
